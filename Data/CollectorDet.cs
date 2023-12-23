@@ -21,5 +21,6 @@ public class CollectorDet
     public string CreateedBy { get; set; }
     public DateTime CreateData { get; set; }
     public DateTime ModifieddData { get; set; }
+    public virtual ICollection<Hospital> Hospitals { get; set; }
 
 }

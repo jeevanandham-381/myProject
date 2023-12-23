@@ -9,6 +9,8 @@ namespace Data;
 public class Hospital
 {
     public int Id { get; set; }
+    public int CollectorDetId { get; set; }
+    public virtual CollectorDet CollectorDet { get; set; }
     public string HospitalName { get; set; }
     public string HospitalCode { get; set; }
     public string Street { get; set; }
